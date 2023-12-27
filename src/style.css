@@ -1,0 +1,78 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+body {
+  background-color:  #e4c0d1;
+  margin: 0;
+  display: flex;
+  min-height: 100vh; 
+}
+
+h1 {
+  line-height: 1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1em 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #628be2;
+  cursor: pointer;
+}
+.cards {
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  padding: 1em;
+}
+
+li {
+  margin-block: 0.5em;
+  padding: 1em;
+}
+
+.left {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(211, 211, 211);
+  padding: 1em 2em;
+  min-width: 300px;
+}
+
+.right {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(211, 211, 211);
+  padding: 1em 2em;
+  min-width: 300px;
+} 
+
+.emptylist {
+  background-color: rgb(247, 227, 196);
+  margin-top: 2.6rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.todo input {
+  min-width: 50%;
+  padding: 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  font-size: 16px;
+}
